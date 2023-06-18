@@ -17,3 +17,10 @@ $(document).ready(function(){
         }
     })
 })
+
+function sendMail(event){
+  // event.preventDefault();
+  let subject = document.getElementById("form-subject")?.value;
+  let message = document.getElementById("form-message")?.value;
+  window.open(`mailto:isatishkumar4008@gmail.com?subject=${subject}&body=${message}`);
+}

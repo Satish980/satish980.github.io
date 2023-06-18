@@ -69,6 +69,7 @@ section{
 
 .btn:hover{
     background: var(--yellow);
+    color: #000;
 }
 
 .heading{
@@ -136,6 +137,7 @@ header .navbar ul li a{
 
 header .navbar ul li a:hover{
     background: var(--yellow);
+    color: #000;
 }
 
 #menu{
@@ -169,6 +171,10 @@ header .navbar ul li a:hover{
 
 .home h1 span{
     color: var(--yellow);
+}
+
+.color-yellow{
+  color: var(--yellow);
 }
 
 .home p{
@@ -339,14 +345,14 @@ padding: 0 .5rem;
     text-transform: capitalize;
 }
 
-.contact .row form{
+.contact .row .form{
     flex: 1 1 45rem;
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 4rem;
 }
 
-.contact .row form .box{
+.contact .row .form .box{
     padding: 1.5rem;
     margin: 1rem 0;
     background: #3333;
@@ -356,11 +362,11 @@ padding: 0 .5rem;
     width: 100%;
 }
 
-.contact .row form .box::placeholder{
+.contact .row .form .box::placeholder{
     text-transform: capitalize;
 }
 
-.contact .row form .message{
+.contact .row .form .message{
     height: 15rem;
     resize: none;
 }
@@ -469,7 +475,7 @@ padding: 0 .5rem;
         width: 100%;
     }
 
-    .contact .row form{
+    .contact .row .form{
         margin: 3rem 0;
     }
 } 
